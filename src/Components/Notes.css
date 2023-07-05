@@ -1,0 +1,72 @@
+.notes-container{
+    background-color: #F7ECDC;
+    position: absolute;
+    width: 950px;
+    max-height: 100vh;
+    left: 330px;
+    top: 0px;
+}
+.image{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 180px;
+    top: 100px;
+}
+.notes-heading{
+    position: absolute;
+    left: 360px;
+    top: 350px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 35px;
+    color: #000000;
+}
+.para{
+    position: absolute;
+    left: 220px;
+    top: 405px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #292929;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 0.02em;
+}
+.para2{
+    position: absolute;
+    left: 220px;
+    top: 425px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #292929;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 0.02em;
+}
+.lock-img{
+    position: absolute;
+    left: 380px;
+    right: 10px;
+    top: 610px;
+    bottom: 1px;
+
+}
+.footer{
+    position: absolute;
+    width: 217px;
+    height: 32px;
+    left: 400px;
+    top: 613px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #292929;
+}
+.notes-grp-card{
+    left: 320px;
+    top:0;
+}

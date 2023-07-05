@@ -1,0 +1,683 @@
+
+
+.groups-container{
+    width: 400px;
+    max-height: 100vh;
+
+}
+
+.name{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 31.5195px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.creating-group-btn{
+    position: absolute;
+    width: 260px;
+    height: 47px;
+    left: 38px;
+    top: 95px;
+    background: #000000;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 530;
+    padding: 10px;
+}
+.groupNamesContainer{
+    width: 300px;
+    max-height: 80vh;
+    background-color: white;
+}
+.pop-up-backside{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+.pop-up-container{
+    position: absolute;
+    width: 450px;
+    height: 210px;
+    left: 280px;
+    top: 210px;
+    border:none;
+    background: hsla(0, 0%, 100%, 1);
+    border-radius: 6px;
+}
+.popup-header{
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.035em;
+    color: #000000;
+    left: 20px;
+}
+.label{
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.035em;
+    color: #000000;
+    top:60px;
+    left: 20px;
+}
+#grpNameInput{
+    box-sizing: border-box;
+    position: absolute;
+    width: 260px;
+    height: 30px;
+    left: 160px;
+    top: 60px;
+    background: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-radius: 22px;
+    padding: 5px;
+}
+.color-choose{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 27.314px;
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+.btn1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 210px;
+    top: 120px;
+    background: #B38BFA;
+    border: none;
+    border-radius: 40px;
+}
+.btn2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 250px;
+    top: 120px;
+    border: none;
+    border-radius: 40px;
+    background: #FF79F2;
+}
+.btn3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 290px;
+    top: 120px;
+    border: none;
+    border-radius: 40px;
+    background: #43E6FC;
+}
+.btn4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 330px;
+    top: 120px;
+    border: none;
+    border-radius: 40px;
+    background: #F19576;
+    
+}
+.btn5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 370px;
+    top: 120px;
+    border: none;
+    border-radius: 40px;
+    background: #0047FF;
+
+}
+.btn6{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 410px;
+    top: 120px;
+    border: none;
+    border-radius: 40px;
+    background: #6691FF;
+}
+.create-btn{
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    left: 300px;
+    top: 165px;
+    background: #000000;
+    border-radius: 11px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.notes-container{
+    position: absolute;
+    background-color: #F7ECDC;
+    width: 1000px;
+    height: 100vh;
+    left: 400px;
+    top: 0px;
+}
+.image{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 115px;
+    top: 150px;
+}
+.notes-heading{
+    position: absolute;
+    left: 300px;
+    top: 420px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+.para{
+    position: absolute;
+    left: 180px;
+    top: 490px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 15px;
+    color: #292929;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.para2{
+    position: absolute;
+    left: 180px;
+    top: 490px;
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 15px;
+    color: #292929;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 10px;
+}
+.lock-img{
+    position: absolute;
+    left: 300px;
+    right: 10px;
+    top: 600px;
+    bottom: 1px;
+
+}
+.groupIconName{
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+
+}
+.footer{
+    position: absolute;
+    width: 217px;
+    height: 32px;
+    left: 320px;
+    top: 603px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #292929;
+}
+.groupNamesContainer{
+    width: 370px;
+    height: 75vh;
+    overflow-y: scroll;
+    margin-top: 160px;
+    margin-left: 25px;
+}
+.grp-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+
+}
+.grp-btn{
+    width: 50px;
+    height: 50px;
+    left: 44px;
+    top: 211px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+}
+.grp-Name{
+    left: 120px;
+    top: 220px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 10px;
+}
+/* .add-note-container{
+    position: absolute;
+    width: 800px;
+    height: 100vh;
+    left: 435px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+} */
+.external-note-container{
+    position: absolute;
+    width: 960px;
+    height: 90px;
+    left: 320px;
+    top: 0px;
+    background: #E8E8E8;
+}
+.notes-grp-card{
+    left: 320px;
+    top:0;
+    width:830px;
+    height: 0px;
+}
+.arrow{
+    display: none;
+    position:absolute;
+    font-size: 30px;
+    font-weight: 1000;
+    color: hsla(0, 0%, 36%, 1);
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+.notes-grp-btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 15px;
+    border: none;
+    border-radius: 60px;
+}
+.notes-grp-Name{
+    position: absolute;
+    left: 120px;
+    top: 5px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+}
+.note-card{
+    position: absolute;
+    width: 960px;
+    height: 57vh;
+    left: 320px;
+    top: 85px;
+    background: #F7ECDC;
+    border-radius: 0px 0px 0px 15px;
+}
+.enter-notes{
+    position: absolute;
+    width: 960px;
+    height: 200px;
+    top: 360px;
+    background: #E8E8E8;
+}
+.input-card{
+    position: absolute;
+    width: 890px;
+    height: 130px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    padding: 20px;
+    font-size: 20px;
+    left:16px;
+    top:16px;
+    
+}
+.enter-btn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: none;
+    top:135px ;
+    left: 890px;
+    background-image: url("./images/enter.png");
+    background-color: white;
+
+}
+.addedNotes{
+    margin-bottom: 28px;
+    display: flex
+}
+.notesId{
+    width: 110px;
+    height: 36px;
+    left: 0;
+    top: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 19px;
+    color: #353535;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    white-space: nowrap;
+    margin-right: 10px ;
+}
+.notesText{
+    width: 790px;
+    left: 200px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-weight: 350;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.active{
+    background: hsla(36, 63%, 92%, 1);
+    border: none;
+    border-radius:30px 0 0 30px;
+    width:300px;
+    height:75px;
+    margin-top:5px;
+    margin-right: 0;
+
+}
+
+@media screen and (max-width:480px) and (max-height:800px) {
+    .notes-container{
+        display: none;
+    }
+    .groups-container{
+        width: 480px;
+        height: 80vh;
+    }
+    .name{
+        position: absolute;
+        left: 15px;
+        top: 0;
+        font-family: 'Roboto';
+        font-weight: 600;
+        font-size: 45px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .creating-group-btn{
+        position: absolute;
+        width: 350px;
+        height: 51px;
+        left: 38px;
+        top: 95px;
+        background: #000000;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 530;
+        padding: 10px;
+    }
+    .groupNamesContainer{
+        width: 430px;
+        max-height: 80vh;
+        background-color: white;
+    }
+    .grp-card{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 430px;
+    
+    }
+    .grp-btn{
+        width: 70px;
+        height: 70px;
+        left: 55px;
+        top: 211px;
+        border: none;
+        border-radius: 70px;
+        margin: 10px;
+    }
+    .grp-Name{
+        left: 140px;
+        top: 220px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 35px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        margin: 10px;
+    }
+    .active{
+        background: white;
+        border: none;
+        border-radius:30px 0 0 30px;
+        width:400px;
+        height:90px;
+        margin-top:5px;
+        margin-right: 0;
+    
+    }
+    .pop-up-container{
+        width: 300px;
+        height: 200px;
+        background: hsla(0, 0%, 100%, 1);
+        border: none;
+        border-radius: 10px;
+        left: 100px;
+    }
+    .popup-header{
+        width: 230px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    .label{
+        font-size:18px ;
+        font-family:'Roboto' ;
+        font-weight:bold ;
+        color: black;
+        top:50px;
+        left:10px;
+    }
+    #grpNameInput{
+        width: 170px;
+        height: 25px;
+        top: 50px;
+        left: 123px;
+        padding: 5px;
+    }
+    .color-choose{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Roboto';
+        left: 8px;
+        color: black;
+    }
+    .btn1{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 127px;
+        top: 105px;
+        background: #B38BFA;
+        border: none;
+        border-radius: 30px;
+    }
+    .btn2{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 154px;
+        top: 105px;
+        border: none;
+        border-radius: 30px;
+        background: #FF79F2;
+    }
+    .btn3{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 183px;
+        top: 105px;
+        border: none;
+        border-radius: 30px;
+        background: #43E6FC;
+    }
+    .btn4{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 212px;
+        top: 105px;
+        border: none;
+        border-radius: 30px;
+        background: #F19576;
+        
+    }
+    .btn5{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 241px;
+        top: 105px;
+        border: none;
+        border-radius: 40px;
+        background: #0047FF;
+    
+    }
+    .btn6{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 270px;
+        top: 105px;
+        border: none;
+        border-radius: 30px;
+        background: #6691FF;
+    }
+    .create-btn{
+        position: absolute;
+        width: 170px;
+        height: 30px;
+        left: 75px;
+        top: 155px;
+        background: #000000;
+        border: none;
+
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto';
+    }
+    .add-note-container{
+        display: none;
+    }
+    .external-note-container{
+        max-width: 480px;
+        height: 90px;
+        left: 0;
+        top: 0;
+    }
+    .arrow{
+        display: block;
+    }
+    .note-card{
+        width: 480px;
+        height: 80vh;
+        left: 0;
+
+    }
+    .enter-notes{
+        width: 480px;
+        height: 220px;
+        top: 630px;
+        left: 0;
+        background: #E8E8E8;
+    }
+    .input-card{
+        width: 400px;
+        height: 150px;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 9px;
+        padding: 20px;
+        font-size: 20px;
+        left:20px;
+        top:15px;
+    }
+    .enter-btn{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border: none;
+        top:155px ;
+        left: 400px;
+        background-image: url("./images/enter.png");
+        background-color: none;
+    
+    }
+    .addedNotes{
+        gap: 5px;
+        
+    }
+    .notesTime{
+        width: 80px;
+        height: 20px;
+        left: 5px;
+        top: 10px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 15.6345px;
+        color: #353535;
+    }
+    .notesDate{
+        width: 80px;
+        height: 20px;
+        left: 5px;
+        top: 10px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 15.6345px;
+        color: #353535;
+    }
+    .notesText{
+        width: 430px;
+        top: 5px;
+        font-family: 'Roboto';
+        font-weight: 350;
+        font-size: 17px;
+        color: #000000;
+        text-align: justify;
+        padding: 3px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0px 0px 0px 10px;
+    }
+}
